@@ -1,6 +1,6 @@
 # Dish Management API
 
-A FastAPI application for managing restaurant dishes.
+A FastAPI application for managing restaurant dishes. (Generated from the ground up using Cursor)
 
 ## Features
 
