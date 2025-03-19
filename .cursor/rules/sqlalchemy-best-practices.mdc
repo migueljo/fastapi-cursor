@@ -1,0 +1,13 @@
+---
+description: 
+globs: **/*.{py}
+alwaysApply: false
+---
+Best practices for using SQLAlchemy 2.0 for ORM features
+
+- Use declarative base for defining models and relationships.
+- Implement asynchronous session management for non-blocking database operations.
+- Use eager loading for related objects to reduce the number of queries.
+- Implement proper transaction management and error handling.
+- Use SQLAlchemy's query API for complex queries and avoid raw SQL where possible.
+- Optimize performance by using bulk operations for inserts and updates.

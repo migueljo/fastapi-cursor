@@ -1,0 +1,14 @@
+---
+description: 
+globs: **/*.{py}
+alwaysApply: false
+---
+Best practices for FastAPI applications and API development
+
+- Use `def` for synchronous operations and `async def` for asynchronous ones.
+- Implement declarative route definitions with clear return type annotations.
+- Minimize use of `@app.on_event("startup")` and `@app.on_event("shutdown")`; prefer lifespan context managers.
+- Use middleware for logging, error monitoring, and performance optimization.
+- Optimize performance with async functions for I/O-bound tasks, caching, and lazy loading.
+- Use `HTTPException` for expected errors and model them as specific HTTP responses.
+- Leverage FastAPI's dependency injection system for managing state and shared resources.

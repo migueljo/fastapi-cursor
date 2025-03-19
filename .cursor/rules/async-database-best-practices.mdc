@@ -1,0 +1,12 @@
+---
+description: 
+globs: **/*.{py}
+alwaysApply: false
+---
+Best practices for using async database libraries like asyncpg or aiomysql
+
+- Use asynchronous database operations to avoid blocking I/O.
+- Implement connection pooling to manage database connections efficiently.
+- Use prepared statements and parameterized queries to prevent SQL injection.
+- Implement proper error handling and transaction management for database operations.
+- Optimize queries by using appropriate indexing and avoiding unnecessary joins.
